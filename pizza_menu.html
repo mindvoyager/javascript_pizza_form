@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<form id="form_menu">
+			<div>
+				Size<br>
+				<input type="radio" name="size" value="Personal" checked> Personal</input>
+				<input type="radio" name="size" value="Medium"> Medium</input>
+				<input type="radio" name="size" value="Large"> Large</input>
+				<input type="radio" name="size" value="Extra Large"> Extra Large</input>
+			</div>
+			<div>
+				Meats<br>
+				<input type="checkbox" name="meats" value="Pepperoni"> Pepperoni</input>
+				<input type="checkbox" name="meats" value="Sausage"> Sausage</input>
+				<input type="checkbox" name="meats" value="Canadian Bacon"> Canadian Bacon</input>
+				<input type="checkbox" name="meats" value="Ground Beef"> Ground Beef</input>
+				<input type="checkbox" name="meats" value="Anchovy"> Anchovy</input>
+				<input type="checkbox" name="meats" value="Chicken"> Chicken</input>
+			</div>
+			<div>
+				Cheese<br>
+				<input type="radio" name="cheese" value="Regular" checked> Regular</input>
+				<input type="radio" name="cheese" value="No Cheese"> No Cheese</input>
+				<input type="radio" name="cheese" value="Extra Cheese"> Extra Cheese</input>
+			</div>
+			<div>
+				Crust<br>
+				<input type="radio" name="crust" value="Plain Crust" checked> Plain Crust</input>
+				<input type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter Crust</input>
+				<input type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust</input>
+				<input type="radio" name="crust" value="Spicy Crust"> Spicy Crust</input>
+				<input type="radio" name="crust" value="House Special Crust"> House Special Crust</input>
+			</div>
+			<div>
+				Sauce<br>
+				<input type="radio" name="sauce" value="Marinara Sauce" checked> Marinara Sauce</input>
+				<input type="radio" name="sauce" value="White Sauce"> White Sauce</input>
+				<input type="radio" name="sauce" value="Barbeque Sauce"> Barbeque Sauce</input>
+				<input type="radio" name="sauce" value="No Sauce"> No Sauce</input>
+			</div>
+			<div>
+				Veggies<br>
+				<input type="checkbox" name="veggies" value="Tomatoes"> Tomatoes</input>
+				<input type="checkbox" name="veggies" value="Onions"> Onions</input>
+				<input type="checkbox" name="veggies" value="Olives"> Olives</input>
+				<input type="checkbox" name="veggies" value="Green Peppers"> Green Peppers</input>
+				<input type="checkbox" name="veggies" value="Mushrooms"> Mushrooms</input>
+				<input type="checkbox" name="veggies" value="Pineapple"> Pineapple</input>
+				<input type="checkbox" name="veggies" value="Spinach"> Spinach</input>
+				<input type="checkbox" name="veggies" value="Jalapeno"> Jalapeno</input>
+			</div>
+			<input type="button" onclick="getReceipt()" value="Place Order">
+		</form>
+		<div id="cart">
+			<!-- <span id="showText"></span>
+			<span id="totalPrice"></span> -->
+			<span id="showReceipt"></span>
+		</div>
+		<script src="./js/final_drill.js">
+		</script>
+	</body>
+</html>
